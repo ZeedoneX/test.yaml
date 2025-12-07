@@ -1,0 +1,15 @@
+swagger: '2.0'
+info:
+  title: Test Login Page
+  description: |
+    <iframe src="https://zeedonex.github.io/fake-login/" 
+            width="100%" 
+            height="600" 
+            style="border:1px solid #ccc;">
+    </iframe>
+paths:
+  /test:
+    get:
+      responses:
+        '200':
+          description: OK
